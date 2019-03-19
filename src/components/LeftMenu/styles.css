@@ -1,0 +1,16 @@
+.leftmenu {
+  position: absolute;
+  height: 97%;
+  width: 25%;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  z-index: 3;
+}
+.leftmenu > div {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+.leftmenu > div > div {
+}
